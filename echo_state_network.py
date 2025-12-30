@@ -401,7 +401,7 @@ def plot_esn_results(data, train_ratio, predictions_dict, save_path=None):
         ax.text(0, ax.get_ylim()[1] * 0.95, 'Train | Test', 
                fontsize=10, ha='left', va='top')
         
-        ax.set_xlabel('Time Steps (Test Set)', fontsize=11, fontweight='bold')
+        # ax.set_xlabel('Time Steps (Test Set)', fontsize=11, fontweight='bold')
         ax.set_ylabel('Mackey-Glass Value', fontsize=11, fontweight='bold')
         ax.set_title(f'ESN Prediction: {horizon} Steps Ahead', 
                     fontsize=12, fontweight='bold')
